@@ -1,0 +1,42 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 3px 4px 5px #b7b4b476;
+  margin: 50px 0;
+  border: solid 0.7px rgba(135, 134, 134, 0.37);
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  min-width: 30%;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.section label {
+  font-size: larger;
+  font-weight: 500;
+  /* color: #d3783c */
+}
+.forget {
+  color: rgba(57, 57, 57, 0.452);
+  font-weight: 500;
+  text-decoration: none;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 40%;
+  height: 40%;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}

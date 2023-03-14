@@ -1,0 +1,29 @@
+.header {
+  background-color: black;
+  margin: 40px auto;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  max-width: 20%;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productItems {
+  margin-left: 150px;
+}
+.intro {
+  text-align: center;
+  padding: 10px;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  margin: 10px 40%;
+}
